@@ -1,0 +1,9 @@
+import names
+enter_gender = input("Enter gender: ")
+for i in range(10):
+    male = names.get_full_name(gender="male")
+    female =names.get_full_name(gender="female")
+    if enter_gender == "male":
+        print(male)
+    elif enter_gender == "female":
+        print(female)
